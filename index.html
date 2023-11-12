@@ -14,28 +14,112 @@
     <section class="header">
         <nav>
             <a href = "index.html"><img src="images/logo1.png"></a>
-            <div class="nav-links">
-                <i class="fa fa-times" aria-hidden="true"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
 
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">FLAVOURS</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#text-box">HOME</a></li>
+                    <li><a href="#footer">ABOUT</a></li>
+                    <li><a href="#flavor">FLAVOURS</a></li>
+                    <li><a href="#cta">CONTACT</a></li>
                 </ul>
 
             </div>
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
 
         </nav>
 <div class="text-box">
     <h1>Dakshayani Biscuits:Biting Through Life's Drama with Family Flaor!</h1>
     <p>
-        Welcome to Dakshayani Biscuits, where the essence of family resilience meets the crunch of delightful biscuits!<br> Join Sethumadhavan on a rollercoaster journey as he battles bureaucratic red tape, navigates the maze of corruption, and simultaneously tackles the tumultuous dynamics of his dysfunctional family. Our biscuits are crafted with love, mirroring the spirit of overcoming challenges. Taste the triumph in every bite, as Dakshayani Biscuits becomes more than a brand – it's a testament to the indomitable spirit of family, determination, and the sweet victory over life's obstacles!
+        Welcome to Dakshayani Biscuits, where the essence of family resilience meets the crunch of delightful biscuits!<br> Our biscuits are crafted with love, mirroring the spirit of overcoming challenges. Taste the triumph in every bite, as Dakshayani Biscuits becomes more than a brand – it's a testament to the indomitable spirit of family, determination, and the sweet victory over life's obstacles!
     </p>
+    <br>
     <a href="" class="hero-btn">Know More</a>
 </div>
     </section>
+
+<section class="flavor">
+    <h1>Flavours We have</h1>
+    <p>I never met a cookie I didn't like</p>
+    <div class="row">
+        <div class="flavor-col">
+            <h3>Dakshayani Classic Crunch:</h3>
+            <p>A zesty blend of spices, reflecting the spice of life in Sethumadhavan's journey.            </p>
+        </div>
+        <div class="flavor-col">
+            <h3>Bite-sized Brotherhood Biscuits:</h3>
+            <p>Tiny treats packed with the unity of family bonds.</p>
+        </div>
+        <div class="flavor-col">
+            <h3>Sethu's Spiced Struggle Snaps:
+            </h3>
+            <p>The timeless taste that brings you back to the heart of family traditions.</p>
+        </div>
+    </div>
+
+</section>
+<section class="testimonials">
+    <h1>What our Customers Say</h1> 
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user.jpeg">
+            <div>
+                <p>
+                    Sethumadhavan's venture with Dakshayani Biscuits is like a box of assorted emotions – sometimes crunchy, sometimes sweet, and always surprising. Despite our differences, these biscuits have a unique way of bringing our family together, just like the blend of flavors in each bite. It's not just a biscuit; it's a bridge connecting us through the ups and downs of life.
+                </p>
+                <h3>Kurup</h3>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.jpeg">
+            <div>
+                <p>
+                    Being one of the first investor brings me a lot of joy just like the biscuit.It was an investment in a journey of resilience and triumph. Today, as I witness the global success of Dakshayani Biscuits, I feel proud to have been a part of this flavorful endeavor. The biscuits are not just a product; they are a symbol of commitment, hard work, and the sweet taste of overcoming challenges. 
+                </p>
+                <h3>Palisha Peethambaran</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="cta">
+    <h1>Order our Tasty Biscuits <br>Anywhere From The World</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+
+
+Welcome to Dakshayani Biscuits, where every crunchy bite tells a story of resilience, family bonds, and the triumph over life's challenges. Established by Sethumadhavan in honor of his late mother, Dakshayani Biscuits is not just a brand; it's a celebration of the indomitable spirit that transforms hurdles into triumphs.
+<br>
+Our journey began with a dream to create biscuits that not only tantalize taste buds but also mirror the flavors of life itself – sweet, savory, and everything in between. Sethumadhavan's determination to build Dakshayani Biscuits became a saga of navigating bureaucratic hurdles, overcoming corruption, and fostering unity within his own family.
+<br>
+At Dakshayani Biscuits, we believe in the power of family, the strength found in overcoming adversity, and the simple joy of sharing delightful moments. Our biscuits are a reflection of these values, crafted with care and commitment to deliver not just a snack but an experience that resonates with the spirit of perseverance.
+<br>
+As we continue to grow globally, our commitment remains unwavering – to bring you biscuits that are more than just a treat for your taste buds. Dakshayani Biscuits symbolize the triumph of love, determination, and the sweetness that life offers even in its most challenging moments.
+<br>
+Join us on this flavorful journey and bite into the taste of Dakshayani – where every biscuit is a chapter in a story of resilience and triumph!
+<br>    
+</p>
+
+</section>
+<div class="end">
+    <p>Made with love by ❤️<a href="https://www.gopishankars.tech/" target="_blank">Gopps</a></p>
+</div>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
 </body>
 </html>
