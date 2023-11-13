@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakshayani Biscuits</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href = "index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#flavor">FLAVOURS</a></li>
+                    <li><a href="#cta">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+<section class="footer" id="about">
+   
+    <p>
+
+
+Welcome to Dakshayani Biscuits, where every crunchy bite tells a story of resilience, family bonds, and the triumph over life's challenges. Established by Sethumadhavan in honor of his late mother, Dakshayani Biscuits is not just a brand; it's a celebration of the indomitable spirit that transforms hurdles into triumphs.
+<br>
+Our journey began with a dream to create biscuits that not only tantalize taste buds but also mirror the flavors of life itself – sweet, savory, and everything in between. Sethumadhavan's determination to build Dakshayani Biscuits became a saga of navigating bureaucratic hurdles, overcoming corruption, and fostering unity within his own family.
+<br>
+At Dakshayani Biscuits, we believe in the power of family, the strength found in overcoming adversity, and the simple joy of sharing delightful moments. Our biscuits are a reflection of these values, crafted with care and commitment to deliver not just a snack but an experience that resonates with the spirit of perseverance.
+<br>
+As we continue to grow globally, our commitment remains unwavering – to bring you biscuits that are more than just a treat for your taste buds. Dakshayani Biscuits symbolize the triumph of love, determination, and the sweetness that life offers even in its most challenging moments.
+<br>
+Join us on this flavorful journey and bite into the taste of Dakshayani – where every biscuit is a chapter in a story of resilience and triumph!
+<br>    
+</p>
+
+</section>
+<div class="end">
+    <p>Made with love by ❤️<a href="https://www.gopishankars.tech/" target="_blank">Gopps</a></p>
+</div>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
